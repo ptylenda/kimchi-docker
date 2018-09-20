@@ -63,4 +63,3 @@ RUN yum install -y wok.el7.noarch.rpm && \
 EXPOSE 8001 8010
 
 CMD ["/usr/sbin/init"]
-#ENTRYPOINT ["/bin/bash"]
